@@ -1,5 +1,5 @@
 # nfcwebhook
-Use an NFC tag to prompt a webhook
+Use an NFC tag to call an HTTP request
 
 Simple script which uses the the <a href="https://github.com/nfcpy/nfcpy">nfcpy</a> library to call the webhook contained in the presented NFC tag
 
