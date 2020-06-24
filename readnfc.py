@@ -9,7 +9,7 @@ def touched(tag):
         for record in tag.ndef.records:
             urltoget = record.text
 
-            print("Read from NFC tag: "+ receivedtext)
+            print("Read from NFC tag: " + urltoget)
             print ("Fetching URL via HTTP: "+ urltoget)
             r = requests.get(urltoget)
             print ("")
